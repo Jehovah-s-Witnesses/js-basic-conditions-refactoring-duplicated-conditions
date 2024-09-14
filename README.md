@@ -1,6 +1,6 @@
-# template-vanilla
+# js-basic-conditions-duplicated-conditions
 
-## Text
+## Remove duplicated conditions and fix useless conditions
 
 ## Criteria:
 
