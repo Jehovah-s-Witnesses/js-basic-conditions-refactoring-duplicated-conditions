@@ -1,7 +1,23 @@
 const order = prompt('Enter your order');
 const operation = prompt('Enter operation(BUY, SELL)');
 
-if (operation === 'BUY') {
+
+if (operation === 'buy' || operation === 'sell') {
+  if (order === 'coffee') {
+    alert(`You ${operation} coffee`);
+  } else if (order === 'cake') {
+    alert(`You ${operation} cake`);
+  } else if (order === 'wine') {
+    alert(`You ${operation} wine`);
+  } else {
+    alert(`You ${operation} ${order} .`)
+  }
+} else  {
+  alert('Invalid operation')
+}
+
+
+/*if (operation === 'BUY') {
   if (order === 'COFFEE') {
     alert('You bought coffee');
   } else if (order === 'CAKE' && operation === 'BUY') {
@@ -19,10 +35,11 @@ if (operation === 'BUY') {
   } else if (order === 'WINE') {
     alert('You sell wine');
   } else if (order === 'COFFEE') {
-    alert('You sell corfee');
+    alert('You sell coffee');
   } else {
     alert(`You sell ${order}`);
   }
 } else {
   alert('Invalid operation');
 }
+*/
